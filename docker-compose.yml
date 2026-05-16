@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/Dockerfile
+    container_name: orchestrai-api
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    command: uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - ./:/app
