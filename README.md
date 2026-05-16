@@ -177,12 +177,6 @@ Contributions are welcome. Please:
 
 ---
 
-## 📜 License
-
-MIT License — see [`LICENSE`](LICENSE) (placeholder).
-
----
-
 ## 🌌 Future Vision
 
 OrchestrAI evolves from workflow automation into a **multi-agent enterprise operating fabric** where AI continuously coordinates communication, planning, execution, and follow-through across organizational systems.
