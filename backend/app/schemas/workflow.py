@@ -15,3 +15,10 @@ class WorkflowResponse(BaseModel):
     next_action: str
     priority: Literal["low", "medium", "high", "critical"]
     rationale: str
+
+
+class FollowUpPreviewResponse(BaseModel):
+    thread_id: str
+    next_action: str
+    age_hours: float
+    rationale: str
